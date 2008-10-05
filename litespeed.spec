@@ -33,7 +33,7 @@ architecture.
 	s#%PHP_BEGIN%##
 	s#%PHP_SUFFIX%#php#
 	s#%PHP_END%##
-	s#%RUBY_BIN%/%{_bindir}/ruby#
+	s#%RUBY_BIN%#%{_bindir}/ruby#
 ' conf/httpd_config.xml.in > conf/httpd_config.xml
 
 %install
