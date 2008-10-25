@@ -3,7 +3,7 @@ Name:		litespeed
 Version:	3.3.18
 Release:	0.1
 License:	"Free"
-Group:		Networking/Daemons
+Group:		Networking/Daemons/HTTP
 Source0:	http://www.litespeedtech.com/packages/3.0/lsws-%{version}-std-i386-linux.tar.gz
 # Source0-md5:	0da9eff04fda6486e493f3d454ef498d
 URL:		http://www.litespeedtech.com/
